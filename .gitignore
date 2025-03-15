@@ -1,0 +1,44 @@
+#  Visual Studio 관련 설정 파일 제외
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+#  빌드 결과물 (컴파일된 파일) 제외
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.ncb
+*.sdf
+*.ipch
+*.cache
+
+#  패키지 폴더 (NuGet 관련 파일 제외)
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+#  WPF 프로젝트 관련 임시 파일 제외
+AppPackages/
+*.psess
+*.pdb
+*.tlog
+*.log
+*.cache
+*.csproj.user
+
+#  환경 설정 관련 파일 제외
+*.vscode/
+*.userprefs
